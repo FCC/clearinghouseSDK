@@ -1,0 +1,15 @@
+#mfgTable img {
+	height: 140px;
+	width: 173px;
+}
+
+.mfgHover {
+	background-color: rgba(3, 137, 156, .25) !important;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.mfgSelected {
+	background-color: rgba(143, 7, 37, .75);
+	border-radius: 5px;
+}

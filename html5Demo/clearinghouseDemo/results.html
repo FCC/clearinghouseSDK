@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8" />
+	<title>Clearinghouse API Demo</title>
+	<link href="css/demo.css" rel="stylesheet" type="text/css" />
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+	</script>
+	
+	<script src="js/scripts.js"></script>
+	<script src="js/results.js"></script>
+</head>
+
+<body>
+<div id="headerBg"></div>
+<div id="navBg"></div>
+<div id="contentBg"></div>
+<div id="footerBg"></div>
+
+<div id="wrapper">
+	<div id="header">
+		<span class="headerDarkText">Finding</span><br>
+		<span class="headerLightText">Accessible Phones</span>
+		<div id="logos">
+			<div id="fcc"><a href="http://apps.fcc.gov/accessibilityclearinghouse/" target="_blank" title="FCC Accessiblity Clearinghouse"><img src="images/fcc-logo.png" alt="FCC Logo" height="37" /></a></div>
+			<div id="cnet"><a href="http://reviews.cnet.com/" target="_blank" title="CNET Reviews"><img src="images/cnet-logo.jpg" alt="CNET Logo" height="40" /></a></div>
+			<div id="logoInfo"><p class="whiteLogoText">Information on this site comes from the FCC Accessibility Clearinghouse and
+			CNET.com</p></div>
+			<div id="shadow"><img src="images/small-shadow-line.png" alt="Vertical Shadow" height="100" /></div>
+		</div>
+	</div>
+	<div id="nav">
+		<div id="nav1" class="hasBeenUsed"><a href="index.html">Step 1</a></div>
+		<div id="nav2" class="hasBeenUsed"><a href="step2.html">Step 2</a></div>
+		<div id="nav3" class="hasBeenUsed"><a href="step3.html">Step 3</a></div>
+		<div id="nav4" class="current"><a href="result.html">Step 4</a></div>
+		<div id="currentNav"></div>
+	</div>
+	<div id="content">
+		<div id="contentTitle">
+			<span class="headerFont">Results: Top Rated Cell Phones</span>
+		</div>
+		<div id="contentBody">
+			<div id="loader">
+				<img src="images/loader.gif" alt="Loading Icon"/><h4>Generating results...</h4>
+			</div>
+			<table id="resultsTable">
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		<div id="contentFooter">
+			<div id="nextBtn" class="invisible">
+				<img src="images/buttons/next-grey.png" height="50" alt="Next Button"  title="Next" />
+			</div>
+			<div id="prevBtn">
+				<a href="step3.html"><img src="images/buttons/previous-grey.png" height="50" alt="Previous Button"  title="Previous" /></a>
+			</div>
+		</div>
+		<div id="contentSideBar">
+			<p class="sideBarText">The phones on the left include the accessibility features you desire and
+			comprise some of the top-rated phones according to CNET.com</p>
+		</div>
+		<div id="contentFooterRight"></div>
+	</div>
+	<div id="footer">
+	</div>
+</div>
+</body>
+
+</html>

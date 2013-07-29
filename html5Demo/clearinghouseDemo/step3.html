@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8" />
+	<title>Clearinghouse API Demo</title>
+	<link href="css/demo.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js">
+	</script>
+	
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/step3.js"></script>
+	
+	<!--[if lt IE 9]>
+	   
+	   <style type="text/css">
+
+	   .mfgHover { 
+		   background:transparent;
+		   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4403899C,endColorstr=#4403899C); 
+		   zoom: 1;
+		}
+		
+		.mfgSelected { 
+		   background:transparent;
+		   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#448F0725,endColorstr=#448F0725); 
+		   zoom: 1;
+		}
+		
+		table {
+			height: 343px;
+		}
+
+		</style>
+
+	<![endif]-->
+</head>
+
+<body>
+<div id="headerBg"></div>
+<div id="navBg"></div>
+<div id="contentBg"></div>
+<div id="footerBg"></div>
+
+<div id="wrapper">
+	<div id="header">
+		<span class="headerDarkText">Finding</span><br />
+		<span class="headerLightText">Accessible Phones</span>
+		<div id="logos">
+			<div id="fcc"><a href="http://apps.fcc.gov/accessibilityclearinghouse/" target="_blank" title="FCC Accessiblity Clearinghouse"><img src="images/fcc-logo.png" alt="FCC Logo" height="37" /></a></div>
+			<div id="cnet"><a href="http://reviews.cnet.com/" target="_blank" title="CNET Reviews"><img src="images/cnet-logo.jpg" alt="CNET Logo" height="40" /></a></div>
+			<div id="logoInfo"><p class="whiteLogoText">Information on this site comes from the FCC Accessibility Clearinghouse and
+			CNET.com</p></div>
+			<div id="shadow"><img src="images/small-shadow-line.png" alt="Vertical Shadow" height="100" /></div>
+		</div>
+	</div>
+	<div id="nav">
+		<div id="nav1" class="hasBeenUsed"><a href="index.html">Step 1</a></div>
+		<div id="nav2" class="hasBeenUsed"><a href="step2.html">Step 2</a></div>
+		<div id="nav3" class="current"><a href="step3.html">Step 3</a></div>
+		<div id="nav4" class="toBeUsed"><a href="result.html">Step 4</a></div>
+		<div id="currentNav"></div>
+	</div>
+	<div id="content">
+		<div id="contentTitle">
+			<span class="headerFont">Step 3: Preferred Manufacturer</span>
+		</div>
+		<div id="contentBody">
+			<table id="mfgTable">
+				<tr>
+					<td id="Samsung"><img src="images/samsung-logo.jpg" alt="Samsung" title="Samsung" /></td>
+					<td id="Motorola"><img src="images/motorola-logo.jpg" alt="Motorola" title="Motorola" /></td>
+					<td id="Apple"><img src="images/apple-logo.jpg" alt="Apple" title="Apple" /></td>
+				</tr>
+				<tr>
+					<td id="LG"><img src="images/lg-logo.gif" alt="LG" title="LG" /></td>
+					<td id="Nokia"><img src="images/nokia-logo.jpg" alt="Nokia" title="Nokia" /></td>
+					<td id="RIM"><img src="images/blackberry-logo.jpg" alt="Blackberry" title="Blackberry" /></td>
+				</tr>
+			</table>
+		</div>
+		<div id="contentFooter">
+			<div id="nextBtn">
+				<a href="results.html"><img src="images/buttons/next-grey.png" height="50" alt="Next Button"  title="Next" /></a>
+			</div>
+			<div id="prevBtn">
+				<a href="step2.html"><img src="images/buttons/previous-grey.png" height="50" alt="Previous Button"  title="Previous" /></a>
+			</div>
+		</div>
+		<div id="contentSideBar">
+			<p class="sideBarText">Select a mobile phone brand from the left and to see phones from that manufacturer</p>
+		</div>
+		<div id="contentFooterRight"></div>
+	</div>
+	<div id="footer">
+	</div>
+</div>
+</body>
+
+</html>

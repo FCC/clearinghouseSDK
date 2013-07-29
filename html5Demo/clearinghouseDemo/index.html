@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="UTF-8" />
+	<title>Clearinghouse API Demo</title>
+	<link href="css/demo.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	
+	<script src="js/scripts.js" type="text/javascript"></script>
+	<script src="js/home.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="headerBg"></div>
+<div id="navBg"></div>
+<div id="contentBg"></div>
+<div id="footerBg"></div>
+
+<div id="wrapper">
+	<div id="header">
+		<span class="headerDarkText">Finding</span><br />
+		<span class="headerLightText">Accessible Phones</span>
+		<div id="logos">
+			<div id="fcc"><a href="http://apps.fcc.gov/accessibilityclearinghouse/" target="_blank" title="FCC Accessiblity Clearinghouse"><img src="images/fcc-logo.png" alt="FCC Logo" height="37" /></a></div>
+			<div id="cnet"><a href="http://reviews.cnet.com/" target="_blank" title="CNET Reviews"><img src="images/cnet-logo.jpg" alt="CNET Logo" height="40" /></a></div>
+			<div id="logoInfo"><p class="whiteLogoText">Information on this site comes from the FCC Accessibility Clearinghouse and
+			CNET.com</p></div>
+			<div id="shadow"><img src="images/small-shadow-line.png" alt="Vertical Shadow" height="100" /></div>
+		</div>
+	</div>
+	<div id="nav">
+		<div id="nav1" class="current"><a href="index.html">Step 1</a></div>
+		<div id="nav2" class="toBeUsed"><a href="step2.html">Step 2</a></div>
+		<div id="nav3" class="toBeUsed"><a href="step3.html">Step 3</a></div>
+		<div id="nav4" class="toBeUsed"><a href="result.html">Step 4</a></div>
+		<div id="currentNav"></div>
+	</div>
+	<div id="content">
+		<div id="contentTitle">
+			<span class="headerFont">Step 1: Choose a disability</span>
+		</div>
+		<div id="contentBody">
+			<table id="disabilityTable">
+				<tr>
+					<td id="blind"><img src="images/blind-symbol.png" height="80" alt="Blind, Visually Impaired"  title="Blind, Visually Impaired" /><h4>Blind, Visually Impaired</h4></td>
+					<td id="hearing"><img src="images/deaf-symbol.png" height="80" alt="Hearing, Speech Disabilities"  title="Hearing, Speech Disabilities" /><h4>Hearing, Speech Disabilities</h4></td>
+					<td id="cognitive"><img src="images/brain-symbol.png" height="80" alt="Cognitive Disabilities"  title="Cognitive Disabilities" /><h4>Cognitive Disabilities</h4></td>
+				</tr>
+				<tr>
+					<td id="mobility"><img src="images/mobility-symbol.png" height="80" alt="Mobility, Physical Disabilities"  title="Mobility, Physical Disabilities" /><h4>Mobility, Physical Disabilities</h4></td>
+					<td id="deafblind"><img src="images/deaf-blind-symbol.png" height="80" alt="Deaf-Blind Disability"  title="Deaf-Blind Disability" /><h4>Deaf-Blind Disability</h4></td>
+				</tr>
+			</table>
+		</div>
+		<div id="contentFooter">
+			<div id="nextBtn" class="invisible">
+				<a href="step2.html"><img src="images/buttons/next-grey.png" height="50" alt="Next Button"  title="Next" /></a>
+			</div>
+			<div id="prevBtn" class="invisible">
+				<img src="images/buttons/previous-grey.png" height="50" alt="Previous Button"  title="Previous" />
+			</div>
+		</div>
+		<div id="contentSideBar">
+			<span class="sideBarHeader">Instructions:</span>
+			<p class="sideBarText">Select a disability category from the left and follow through the steps to find a phone with accessibility features
+			you would like</p>
+		</div>
+		<div id="contentFooterRight"></div>
+	</div>
+	<div id="footer">
+	</div>
+</div>
+</body>
+
+</html>

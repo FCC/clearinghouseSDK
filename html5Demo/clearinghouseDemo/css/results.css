@@ -1,0 +1,49 @@
+#resultsTable tbody {
+	visibility: hidden;
+}
+
+#resultsTable h4 {
+	padding: 0px;
+	margin: 0px;
+	font-family: Verdana;
+}
+
+#resultsTable td {
+	padding: 4px 37px 4px 37px;
+	width: 50%;
+}
+
+.hover {
+	background-color: rgba(3, 137, 156, .25) !important;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#resultsTable a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#resultsTable a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+#resultsTable a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#resultsTable a:active {
+	text-decoration: none;
+	color: black;
+}
+
+#loader {
+	position: absolute;
+	top: 120px;
+	left: 220px;
+	width: 152px;
+	height: 105px;
+	text-align: center;
+}

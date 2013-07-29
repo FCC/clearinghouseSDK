@@ -1,0 +1,108 @@
+@import url('fonts.css');
+@import url('content.css');
+@import url('features.css');
+@import url('nav.css');
+@import url('mfg.css');
+@import url('results.css');
+@import url('logos.css');
+
+html {
+	background-color: #686868;
+}
+
+body {
+	background-image: url('../images/bgs/simple_dashed.png');
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+}
+
+a img {
+	border: none;
+}
+
+#wrapper {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	top: 0px;
+}
+
+#headerBg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 120px;
+	background-image: url('../images/bgs/noisy_net.png');
+}
+
+#header {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 900px;
+	height: 120px;
+	padding-left: 60px;
+}
+
+#navBg {
+	position: absolute;
+	top: 120px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+	background-image: url('../images/bgs/orange_black_under.jpg');
+}
+
+#nav {
+	position: relative;
+	top: 120px;
+	width: 600px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contentBg {
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/bgs/grey_wash_wall.png');
+}
+
+#content {
+	position: absolute;
+	top: 180px;
+	left: 50px;
+	width: 800px;
+	height: 460px;
+	background-image: url('../images/bgs/witewall_3.png');
+	border-radius: 15px;
+	border: solid 4px orange;
+	box-shadow: 5px 8px 6px #292929;
+	padding: 35px;
+}
+
+#footerBg {
+	position: absolute;
+	top: 750px;
+	left: 0px;
+	width: 100%;
+	height: 140px;
+	background-image: url('../images/bgs/retro_intro.png');
+}
+
+#footer {
+	position: absolute;
+	top: 750px;
+	left: 0px;
+	width: 100%;
+	height: 140px;
+	background-image: url('../images/bgs/nav_shadow_line.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+}

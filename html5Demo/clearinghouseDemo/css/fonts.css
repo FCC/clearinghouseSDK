@@ -1,0 +1,46 @@
+.headerFont {
+	font-size: 24pt;
+	font-family: Verdana;
+	color: #383838;
+	font-weight: bold;
+}
+
+.sideBarHeader {
+	font-size: 16pt;
+	font-family: Verdana;
+	color: #383838;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.sideBarText {
+	font-size: 14pt;
+	font-family: Verdana;
+	color: #383838;
+}
+
+.headerDarkText {
+	font-family: Verdana;
+	font-size: 30pt;
+	color: #7A7A7A;
+	font-weight: bold;
+	text-shadow: 1px 1px #E8E8E8;
+}
+
+.headerLightText {
+	font-family: Verdana;
+	font-size: 36pt;
+	color: #E8E8E8;
+	font-weight: bold;
+	text-shadow: 2px 2px 1px #8D8D8D;
+}
+
+.whiteLogoText {
+	font-family: Verdana;
+	font-size: 8pt;
+	color: #fff;
+}
+
+.error {
+	color: #ff0000;
+}

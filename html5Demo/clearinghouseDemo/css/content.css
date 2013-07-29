@@ -1,0 +1,83 @@
+#contentTitle {
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	width: 610px;
+	height: 50px;
+	border-bottom: solid 4px #383838;
+}
+
+#contentBody {
+	position: absolute;
+	top: 95px;
+	left: 35px;
+	width: 610px;
+	height: 350px;
+}
+
+#contentBody table {
+	width: 593px;
+	border-collapse: separate;
+	border-spacing: 15px 15px;
+}
+
+#contentBody td {
+	padding: 4px 4px 0px 4px;
+	text-align: center;
+	width: 33%;
+}
+
+.imgHover {
+	background-color: rgba(3, 137, 156, .25) !important;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.imgSelected {
+	background: url('../images/green-check-mark.png');
+	background-color: rgba(148, 148, 148, .25);
+	border-radius: 5px;
+	background-repeat: no-repeat;
+}
+
+#contentFooter {
+	position: absolute;
+	top: 455px;
+	left: 35px;
+	width: 610px;
+	height: 40px;
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+#nextBtn {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 40px;
+}
+
+#prevBtn {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 40px;
+}
+
+#contentSideBar {
+	position: absolute;
+	top: 100px;
+	right: 35px;
+	width: 174px;
+	height: 345px;
+}
+
+#contentFooterRight {
+	position: absolute;
+	top: 455px;
+	right: 35px;
+	width: 174px;
+	height: 40px;
+}

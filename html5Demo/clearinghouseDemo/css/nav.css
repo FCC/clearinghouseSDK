@@ -1,0 +1,112 @@
+#nav1 {
+	position: absolute;
+	width: 150px;
+	left: 0px;
+	text-align: center;
+}
+
+#nav2 {
+	position: absolute;
+	width: 150px;
+	left: 150px;
+	text-align: center;
+}
+
+#nav3 {
+	position: absolute;
+	width: 150px;
+	left: 300px;
+	text-align: center;
+}
+
+#nav4 {
+	position: absolute;
+	width: 150px;
+	left: 450px;
+	text-align: center;
+}
+
+#currentNav {
+	position: absolute;
+	top: 30px;
+	left: -7px;
+	height: 15px;
+	width: 160px;
+	background-image: url('../images/red-bar.png');
+	background-repeat: no-repeat;
+}
+
+.current {
+	background-image: url('../images/buttons/orange.png');
+	background-repeat: no-repeat;
+	height: 28px;
+	color: #c71c1c;
+	font-size: 16pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.current a:link {
+	text-decoration: none;
+	color: #c71c1c;
+}
+
+.current a:hover {
+	text-decoration: none;
+	color: #c71c1c;
+}
+
+.current a:visited {
+	text-decoration: none;
+	color: #c71c1c;
+}
+
+.current a:active {
+	text-decoration: none;
+	color: #c71c1c;
+}
+
+.hasBeenUsed {
+	background-image: url('../images/buttons/orange.png');
+	background-repeat: no-repeat;
+	height: 28px;
+	color: #333;
+	font-size: 16pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.hasBeenUsed a:link {
+	text-decoration: none;
+	color: #333;
+}
+
+.hasBeenUsed a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+.hasBeenUsed a:visited {
+	text-decoration: none;
+	color: #333;
+}
+
+.hasBeenUsed a:active {
+	text-decoration: none;
+	color: #333;
+}
+
+.toBeUsed {
+	background-image: url('../images/buttons/grey.png');
+	background-repeat: no-repeat;
+	height: 28px;
+	color: #666;
+	font-size: 16pt;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.toBeUsed a:link, a:hover, a:visited, a:active {
+	text-decoration: none;
+	color: #666;
+}
