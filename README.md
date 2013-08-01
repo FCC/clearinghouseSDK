@@ -70,7 +70,15 @@ Usage Examples
 
 	print(data)
 
-Methods
+ClearinghouseStoredValue Methods
+-------
+#### getResponseURL()
+- Returns the URL that was used by the ClearinghouseAPI object
+#### getResponseData()
+- Returns a string of the response data in its current format
+#### getResponseFormat()
+- Returns the response format that was used by the ClearinghouseAPI object
+ClearinghouseAPI Methods
 -------
 #### retrieveAPIData(apiName, **args)
 - Returns a ClearinghouseStoredValue object with a string containing response data in XML, JSON, or JSONP format
