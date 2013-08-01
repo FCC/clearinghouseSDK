@@ -74,8 +74,10 @@ ClearinghouseStoredValue Methods
 -------
 #### getResponseURL()
 - Returns the URL that was used by the ClearinghouseAPI object
+
 #### getResponseData()
 - Returns a string of the response data in its current format
+
 #### getResponseFormat()
 - Returns the response format that was used by the ClearinghouseAPI object
 
