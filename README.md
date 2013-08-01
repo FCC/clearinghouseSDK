@@ -78,6 +78,7 @@ ClearinghouseStoredValue Methods
 - Returns a string of the response data in its current format
 #### getResponseFormat()
 - Returns the response format that was used by the ClearinghouseAPI object
+
 ClearinghouseAPI Methods
 -------
 #### retrieveAPIData(apiName, **args)
